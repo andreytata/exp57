@@ -1,5 +1,6 @@
 #http://www.youtube.com/watch?v=F_Xu0t8I3lw
 import re, os, sys, pdb
+
 try:type(BaseException) #2.6 and later has this name
 except: #2.4 and older
   class BaseException(object):pass
