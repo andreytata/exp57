@@ -1,4 +1,5 @@
 #!include(gx_src_json.pri)
+#comment
 !contains ( INCLUDEPATH, $$PWD ){
   HEADERS     += $$PWD/gx_json.h
 
